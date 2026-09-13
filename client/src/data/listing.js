@@ -1,0 +1,166 @@
+export const photoTourCategories = [
+  {
+    id: 'living-room-1',
+    title: 'Living room 1',
+    amenities: 'Sofa · Air conditioning · Ceiling fan · TV',
+    thumbnail: '/living-room-1/one.jpg',
+    photos: [
+      { src: '/living-room-1/one.jpg', alt: 'Living room 1 with orange sofa, dining table, and kitchen', label: 'Living room 1' },
+      { src: '/living-room-1/two.jpg', alt: 'Living room 1 lounge and jacuzzi area', label: 'Living room 1' },
+      { src: '/living-room-1/three.jpg', alt: 'Living room 1 seating and jacuzzi corner', label: 'Living room 1' },
+    ],
+  },
+  {
+    id: 'living-room-2',
+    title: 'Living room 2',
+    amenities: 'Ceiling fan · Hot tub',
+    thumbnail: '/living-room-2/one.jpg',
+    photos: [
+      { src: '/living-room-2/one.jpg', alt: 'Living room 2 seating space', label: 'Living room 2' },
+      { src: '/living-room-2/two.jpg', alt: 'Living room 2 jacuzzi area', label: 'Living room 2' },
+      { src: '/living-room-2/three.png', alt: 'Living room 2 atrium and seating area', label: 'Living room 2' },
+      { src: '/living-room-2/four.png', alt: 'Living room 2 jacuzzi and seating area', label: 'Living room 2' },
+      { src: '/living-room-2/five.png', alt: 'Living room 2 interior view', label: 'Living room 2' },
+      { src: '/living-room-2/six.png', alt: 'Living room 2 seating and jacuzzi view', label: 'Living room 2' },
+      { src: '/living-room-2/seven.png', alt: 'Living room 2 wide interior view', label: 'Living room 2' },
+    ],
+  },
+  {
+    id: 'full-kitchen',
+    title: 'Full kitchen',
+    amenities: 'Refrigerator · Microwave · Stove · Coffee maker',
+    thumbnail: '/full-kitchen/one.jpg',
+    photos: [
+      { src: '/full-kitchen/one.jpg', alt: 'Full kitchen counters and dining setup', label: 'Full kitchen' },
+      { src: '/full-kitchen/two.jpg', alt: 'Full kitchen breakfast table', label: 'Full kitchen' },
+    ],
+  },
+  {
+    id: 'bedroom',
+    title: 'Bedroom',
+    amenities: '1 queen bed · Air conditioning · Ceiling fan · TV',
+    thumbnail: '/bedroom/one.jpg',
+    photos: [
+      { src: '/bedroom/one.jpg', alt: 'Bedroom photo 1', label: 'Bedroom' },
+      { src: '/bedroom/two.jpg', alt: 'Bedroom photo 2', label: 'Bedroom' },
+      { src: '/bedroom/three.jpg', alt: 'Bedroom photo 3', label: 'Bedroom' },
+      { src: '/bedroom/four.jpg', alt: 'Bedroom photo 4', label: 'Bedroom' },
+      { src: '/bedroom/five.jpg', alt: 'Bedroom photo 5', label: 'Bedroom' },
+      { src: '/bedroom/six.jpg', alt: 'Bedroom photo 6', label: 'Bedroom' },
+    ],
+  },
+  {
+    id: 'full-bathroom',
+    title: 'Full bathroom',
+    amenities: 'Bathtub · Hair dryer · Hot water · Fresh towels',
+    thumbnail: '/full-bathroom/one.jpg',
+    photos: [
+      { src: '/full-bathroom/one.jpg', alt: 'Full bathroom modern vanity and shower', label: 'Full bathroom' },
+    ],
+  },
+  {
+    id: 'gym',
+    title: 'Gym',
+    amenities: 'Treadmill · Dumbbells · Exercise bike',
+    thumbnail: '/gym/one.jpg',
+    photos: [
+      { src: '/gym/one.jpg', alt: 'Gym photo 1', label: 'Gym' },
+      { src: '/gym/two.jpg', alt: 'Gym photo 2', label: 'Gym' },
+      { src: '/gym/three.jpg', alt: 'Gym photo 3', label: 'Gym' },
+      { src: '/gym/four.jpg', alt: 'Gym photo 4', label: 'Gym' },
+      { src: '/gym/five.jpg', alt: 'Gym photo 5', label: 'Gym' },
+    ],
+  },
+  {
+    id: 'exterior',
+    title: 'Exterior',
+    amenities: 'Private entrance · Building exterior · Garden',
+    thumbnail: '/exterior/one.jpg',
+    photos: [
+      { src: '/exterior/one.jpg', alt: 'Aerial drone view of the yellow Amor de Goa building with red-orange roof', label: 'Exterior' },
+      { src: '/exterior/two.jpg', alt: 'Close aerial view of the building and roof structures', label: 'Exterior' },
+      { src: '/exterior/third.jpg', alt: 'High-altitude drone view showing the building, green landscape, and Arabian Sea', label: 'Exterior' },
+      { src: '/exterior/four.jpg', alt: 'Aerial view of the building corner with Amor de Goa signage', label: 'Exterior' },
+      { src: '/exterior/five.jpg', alt: 'Aerial perspective of the building facade, driveway, and entrance', label: 'Exterior' },
+      { src: '/exterior/six.jpg', alt: 'Duplicate aerial view of the building corner with Amor de Goa signage', label: 'Exterior' },
+    ],
+  },
+  {
+    id: 'pool',
+    title: 'Pool',
+    amenities: 'Outdoor pool · Sun loungers · Swimming area',
+    thumbnail: '/pool/one.jpg?v=2',
+    photos: [
+      { src: '/pool/one.jpg?v=2', alt: 'Central building courtyard looking down at the swimming pool, wooden deck, and potted plants', label: 'Pool' },
+      { src: '/pool/two.jpg?v=2', alt: 'Swimming pool and wooden deck with building sign plaque', label: 'Pool' },
+      { src: '/pool/three.jpg?v=2', alt: 'Duplicate courtyard view of the swimming pool and wooden deck', label: 'Pool' },
+    ],
+  },
+  {
+    id: 'additional-photos',
+    title: 'Additional photos',
+    amenities: 'Balcony view · Hallway · Property details',
+    thumbnail: '/additional-photos/one.png',
+    photos: [
+      { src: '/additional-photos/one.png', alt: 'Jacuzzi wooden tub rim with a wicker chair, grey stone wall, sconces, and palm plant', label: 'Additional photos' },
+      { src: '/additional-photos/two.png', alt: 'Mona Lisa portrait over the wet bar counter, washing machine, jacuzzi steps, and dining table', label: 'Additional photos' },
+      { src: '/additional-photos/three.png', alt: 'High-angle view of the jacuzzi tub, lounge area, and dining area', label: 'Additional photos' },
+      { src: '/additional-photos/four.png', alt: 'High atrium overview with jacuzzi, wicker seating, dining table, and wall fans', label: 'Additional photos' },
+      { src: '/additional-photos/five.png', alt: 'Additional property photo five', label: 'Additional photos' },
+      { src: '/additional-photos/six.png', alt: 'Additional property photo six', label: 'Additional photos' },
+      { src: '/additional-photos/seven.png', alt: 'Additional property photo seven', label: 'Additional photos' },
+      { src: '/additional-photos/eight.png', alt: 'Additional property photo eight', label: 'Additional photos' },
+      { src: '/additional-photos/nine.png', alt: 'Additional property photo nine', label: 'Additional photos' },
+      { src: '/additional-photos/ten.png', alt: 'Additional property photo ten', label: 'Additional photos' },
+    ],
+  },
+]
+
+export const allPhotos = photoTourCategories.flatMap((category) => category.photos)
+
+export const listing = {
+  id: 'mirashya-ug10',
+  title: 'Romantic Jacuzzi 1BHK Candolim | Mirashya UG10',
+  propertyType: 'Entire serviced apartment',
+  location: 'Candolim, India',
+  region: 'North Goa, Goa',
+  rating: 4.95,
+  reviews: 19,
+  guestFavorite: true,
+  host: {
+    name: 'Mirashya Homes',
+    yearsHosting: 2,
+    avatar: 'M',
+  },
+  guests: 3,
+  bedrooms: 1,
+  beds: 1,
+  bathrooms: 1,
+  price: 5699,
+  cleaningFee: 0,
+  serviceFee: 1285,
+  currency: '₹',
+  photos: [
+    { src: '/home/one.png', alt: 'Living room 2 seating and indoor jacuzzi area', label: 'Living room 2', tourCategoryId: 'living-room-2', tourPhotoIndex: 3 },
+    { src: '/home/two.png', alt: 'Living room 2 seating space', label: 'Living room 2', tourCategoryId: 'living-room-2', tourPhotoIndex: 0 },
+    { src: '/home/three.png', alt: 'Indoor jacuzzi and seating area', label: 'Living room 2', tourCategoryId: 'living-room-2', tourPhotoIndex: 1 },
+    { src: '/home/four.png', alt: 'Bedroom with queen bed and window', label: 'Bedroom', tourCategoryId: 'bedroom', tourPhotoIndex: 0 },
+    { src: '/home/five.png', alt: 'Aerial view of the Amor de Goa building', label: 'Exterior', tourCategoryId: 'exterior', tourPhotoIndex: 0 },
+  ],
+  amenities: [
+    { icon: 'sparkles', label: 'Guest favorite' },
+    { icon: 'wifi', label: 'Fast Wi-Fi' },
+    { icon: 'hot-tub', label: 'Private hot tub' },
+    { icon: 'tv', label: 'TV with streaming' },
+    { icon: 'snowflake', label: 'Air conditioning' },
+    { icon: 'kitchen', label: 'Kitchen' },
+    { icon: 'parking', label: 'Free parking on premises' },
+    { icon: 'washer', label: 'Washer in building' },
+  ],
+  description:
+    'Settle into a private, design-forward 1BHK in the heart of Candolim. Mirashya UG10 pairs a spacious living room, a dreamy indoor jacuzzi, and thoughtful touches for slow mornings or easy evenings in Goa. The beach, cafés, and local favourites are all close by.',
+  houseRules: ['Check-in after 2:00 pm', 'Checkout before 11:00 am', '3 guests maximum'],
+}
+
+export const formatPrice = (value) =>
+  new Intl.NumberFormat('en-IN', { maximumFractionDigits: 0 }).format(value)
